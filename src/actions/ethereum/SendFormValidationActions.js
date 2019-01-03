@@ -1,6 +1,6 @@
 /* @flow */
 
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import EthereumjsUtil from 'ethereumjs-util';
 import EthereumjsUnits from 'ethereumjs-units';
 import { findDevice, getPendingAmount, findToken } from 'reducers/utils';

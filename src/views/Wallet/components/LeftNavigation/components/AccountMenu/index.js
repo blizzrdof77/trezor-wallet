@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import Icon from 'components/Icon';
 import colors from 'config/colors';
 import Loader from 'components/Loader';

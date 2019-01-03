@@ -2,7 +2,7 @@
 
 import EthereumjsTx from 'ethereumjs-tx';
 import EthereumjsUnits from 'ethereumjs-units';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import { toHex } from 'web3-utils'; // eslint-disable-line import/no-extraneous-dependencies
 import { initWeb3 } from 'actions/Web3Actions';
 import * as ethUtils from 'utils/ethUtils';

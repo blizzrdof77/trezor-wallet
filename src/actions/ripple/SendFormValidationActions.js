@@ -1,6 +1,6 @@
 /* @flow */
 
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import * as SEND from 'actions/constants/send';
 import { findDevice, getPendingAmount } from 'reducers/utils';
 import { toDecimalAmount } from 'utils/formatUtils';

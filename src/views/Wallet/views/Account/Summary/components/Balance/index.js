@@ -1,6 +1,6 @@
 /* @flow */
 import React, { PureComponent } from 'react';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import styled from 'styled-components';
 import Icon from 'components/Icon';
 import colors from 'config/colors';

@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'components/Link';
 import TrezorConnect from 'trezor-connect';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import * as ACCOUNT from 'actions/constants/account';
 import * as NOTIFICATION from 'actions/constants/notification';
 import * as SEND from 'actions/constants/send';

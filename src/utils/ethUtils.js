@@ -1,6 +1,6 @@
 /* @flow */
 
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import EthereumjsUtil from 'ethereumjs-util';
 
 export const decimalToHex = (dec: number): string => new BigNumber(dec).toString(16);

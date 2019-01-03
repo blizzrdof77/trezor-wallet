@@ -1,7 +1,7 @@
 /* @flow */
 
 import TrezorConnect from 'trezor-connect';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import * as PENDING from 'actions/constants/pendingTx';
 
 import type {

@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import { H2 } from 'components/Heading';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import Icon from 'components/Icon';
 import ICONS from 'config/icons';
 import colors from 'config/colors';

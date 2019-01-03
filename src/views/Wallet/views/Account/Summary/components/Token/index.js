@@ -7,7 +7,7 @@ import Button from 'components/Button';
 import Icon from 'components/Icon';
 import ICONS from 'config/icons';
 import * as stateUtils from 'reducers/utils';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 import PropTypes from 'prop-types';
 
 const TokenWrapper = styled.div`

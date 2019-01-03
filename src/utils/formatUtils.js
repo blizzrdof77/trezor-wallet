@@ -1,6 +1,6 @@
 /* @flow */
 
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 
 const currencyUnitsConstant: string = 'mbtc2';
 

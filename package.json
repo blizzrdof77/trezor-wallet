@@ -27,7 +27,7 @@
     "dependencies": {
         "babel": "^6.23.0",
         "babel-core": "^6.26.3",
-        "bignumber.js": "2.4.0",
+        "bignumber.js": "8.0.1",
         "color-hash": "^1.0.3",
         "commander": "^2.19.0",
         "copy-webpack-plugin": "^4.5.2",

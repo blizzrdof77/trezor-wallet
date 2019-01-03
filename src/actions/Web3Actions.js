@@ -1,6 +1,6 @@
 /* @flow */
 import Web3 from 'web3';
-import BigNumber from 'bignumber.js';
+import { BigNumber } from 'bignumber.js';
 
 import EthereumjsUnits from 'ethereumjs-units';
 // import InputDataDecoder from 'ethereum-input-data-decoder';
