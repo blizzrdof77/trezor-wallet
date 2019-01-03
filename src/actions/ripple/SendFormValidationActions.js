@@ -182,7 +182,7 @@ const amountValidation = ($state: State): PayloadAction<State> => (dispatch: Dis
 
         if (!state.amount.match(XRP_6_RE)) {
             state.errors.amount = 'Maximum 6 decimals allowed';
-        } else if (new BigNumber(state.total).greaterThan(new BigNumber(account.balance).minus(pendingAmount))) {
+        } else if (new BigNumber(state.total).isGreaterThan(new BigNumber(account.balance).minus(pendingAmount))) {
             state.errors.amount = 'Not enough funds';
         }
     }
@@ -205,7 +205,7 @@ const calculateMaxAmount = (balance: BigNumber, fee: string): string => {
     try {
         // TODO - minus pendings
         const max = balance.minus(fee);
-        if (max.lessThan(0)) return '0';
+        if (max.isLessThan(0)) return '0';
         return max.toString(10);
     } catch (error) {
         return '0';
