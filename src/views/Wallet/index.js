@@ -43,7 +43,7 @@ export type Props = StateProps & DispatchProps;
 
 const AppWrapper = styled.div`
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     background: ${colors.BACKGROUND};

@@ -8,7 +8,7 @@ import animationStyles from './Animations';
 const baseStyles = createGlobalStyle`
     html, body {
         width: 100%;
-        min-height: 100vh;
+        height: 100%;
         position: relative;
         font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
         font-weight: ${FONT_WEIGHT.NORMAL};
@@ -43,7 +43,7 @@ const baseStyles = createGlobalStyle`
     }
 
     #trezor-wallet-root {
-        min-height: 100vh;
+        height: 100%;
     }
 
     ${animationStyles};
