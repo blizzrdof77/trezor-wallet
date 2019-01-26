@@ -43,7 +43,7 @@ const baseStyles = createGlobalStyle`
     }
 
     #trezor-wallet-root {
-        min-height: 100vh;
+        min-height: 100%;
     }
 
     ${animationStyles};
